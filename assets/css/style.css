@@ -45,8 +45,7 @@
     padding: 30px;
     height: 520px;
     width: 700px;
-    background-color: #ffffff;
-    
+    background-color: #ffffff;  
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
@@ -55,8 +54,6 @@
     left: 0;
     right: 0;
     top: 5%;
-
- 
     z-index: 2;
 }
 .containerDown{
@@ -118,15 +115,59 @@ h3{
     word-spacing: 5px;
 }
 
+.containerContact{
+    /*margin: auto;*/
+    padding: 30px;
+    height: 520px;
+    width: 700px;
+    background-color: #ffffff;  
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 5%;
+    z-index: 2;
+}
+
+.containerContact p{
+    color: #4aaaa5;
+    text-align: left;
+    background-color: #ffffff;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+#SendButton p{
+    background-color: #4aaaa5 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    background-color: #4aaaa5 ;
+}
+
+label{
+    color: #4aaaa5; 
+}
+
+textarea{
+    resize: none;
+}
 
 .clearfix {
     display: flow-root;
 }
-.containerData p{
-    color:  #4aaaa5;
-    font-size: 20px;
-    display: inline-block;
 
+.boton{
+    display: inline-block;
+}
+
+.boton p{
+    color:  #ffffff;
+    font-size: 20px;
+    background-color: #4aaaa5;
+    padding: 15px 20px;
+    text-align: center;
+    
 }
 
 footer{
