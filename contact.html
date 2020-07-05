@@ -9,56 +9,74 @@
 </head>
 
 <body>
-    <div>
-        <h2>
-            Diego Fernando Montaño Pérez
-        </h2>
-        <h6>
-            <a href="index.html">About</a> 
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </h6>
+    <div class="containerUpTitle">
+
+        <!--div id="containerUpTitle"-->
+        <div class="UpTitle">
+            <p>
+                Diego Fernando Montaño Pérez
+            </p>
+        </div>
+        <!--/div-->
+        <!--div id="containerUpLinks"-->
+        <div class="UpLink">
+            <p>
+                <a href="index.html">About | </a> 
+                <a href="portfolio.html">Portfolio | </a>
+                <a href="contact.html">Contact</a>
+            </p>
+        </div>
+        <!--/div-->
 
     </div>
 
-    <div>
-        <h3>
-            Contacto
-        </h3>
-        <form>
-            <fieldset>
-                <label>Nombre</label>
-                <p>
-                    <input type = "text"
-                           id = "Name"
-                           value = "John Smith" />
-                </p>
-                <label>Email</label>
-                <p>
-                    <input type = "text"
-                           id = "Email"
-                           value = "ejemplo@gmail.com" />
-                </p>
-                <label>Mensaje</label>
-                <p>
-                    <textarea id = "textArea" rows = "10" cols = "80">Escribe algo aquí..</textarea>
-                </p>
+    <div class="containerMiddle">
+        <div class="containerContact">
 
+            <p>
+                Contacto
+            <p>
+            <form>
+                <fieldset>
+                    <ul>      
+                        <li>Nombre</li>
+                        <p>
+                            <input type = "text"
+                                id = "Name"
+                                value = "John Smith" />
+                        </p>
+                        <li>Email</li>
+                        <p>
+                            <input type = "text"
+                                id = "Email"
+                                value = "ejemplo@gmail.com" />
+                        </p>
+                        <li>Mensaje</li>
+                        <p>
+                            <textarea id = "textArea" rows = "10" cols = "80">Escribe algo aquí..</textarea>
+                        </p>
+                        
+
+                    </ul>
+
+                </fieldset>
+
+            </form>
+            <div class="boton">
                 <p>
                     Enviar
                 </p>
-
-            </fieldset>
-
-        </form>
-
-
+            </div>
+        </div>
 
     </div>
 
-    <footer>
-        Copyright &#169
-    </footer>
+    <div class="containerDown">
+        <footer>
+            Copyright &#169
+        </footer>
+    </div>
+    
 </body>
 
 </html>
